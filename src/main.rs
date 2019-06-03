@@ -13,7 +13,10 @@ use crate::user_guesses::User2_input;
 use crate::set_up::genned_num;
 
 
+
 fn main() {
+
+
 
     println!("Welcome to the gambling bot\n");
     println!("Lets play odds. \n");
@@ -21,7 +24,6 @@ fn main() {
     let mut Realrange = range();
     let generator=  genned_num(Realrange);
     let Bet_amount=  bet_amount();
-
 
 println!("The current bet is ${} and the range is 1-{} \n", Bet_amount, Realrange);
 
