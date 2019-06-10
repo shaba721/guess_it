@@ -9,6 +9,5 @@ rand = "0.6.5"
 [dependencies.serenity]
 git = "https://github.com/serenity-rs/serenity"
 
-
 branch = "v0.6.x"
 
